@@ -6,8 +6,7 @@ def on_forever():
         . # . # .
         # . . . #
         """)
-    music.play(music.string_playable("C D E F G A B C5 ", 120),
-        music.PlaybackMode.LOOPING_IN_BACKGROUND)
+    basic.pause(100)
     basic.show_leds("""
         # . # # #
         # . # . #
@@ -15,6 +14,7 @@ def on_forever():
         # . # . #
         # . # # #
         """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         # . # . .
@@ -22,6 +22,7 @@ def on_forever():
         . . # . .
         # # # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         # . # . .
@@ -29,6 +30,7 @@ def on_forever():
         # . # . .
         # # # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         . . # . .
@@ -36,20 +38,23 @@ def on_forever():
         . . # . .
         . . # . .
         """)
-    basic.show_leds("""
-        # # # . .
-        # . . . .
-        # # # . .
-        # . # . .
-        # # # . .
-        """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         # . . . .
         # # # . .
+        # . # . .
+        # # # . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        # # # . .
+        # . . . .
+        # # # . .
         . . # . .
         # # # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         # . # . .
         # . # . .
@@ -57,6 +62,7 @@ def on_forever():
         . . # . .
         . . # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         . . # . .
@@ -64,6 +70,7 @@ def on_forever():
         . . # . .
         # # # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         # # # . .
         . . # . .
@@ -71,6 +78,7 @@ def on_forever():
         # . . . .
         # # # . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         . # . . .
         . # . . .
@@ -78,6 +86,7 @@ def on_forever():
         . # . . .
         . # . . .
         """)
+    basic.pause(100)
     basic.show_leds("""
         . . . . .
         . . . . .
